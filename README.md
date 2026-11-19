@@ -1,4 +1,6 @@
-# pihive-pi-helpers
+# Hive Helpers for Pi
+
+_Package and repository name: `pihive-pi-helpers`._
 
 Reusable TypeScript helpers for [Pi Network](https://minepi.com) apps: Browser SDK sign-in, server-side `GET /v2/me` verification, user-to-app (U2A) payment approve/complete flow, and app-to-user (A2U) payouts with a read-only Horizon client.
 

@@ -1,4 +1,4 @@
-# Submitting pihive-pi-helpers to PiOS
+# Submitting Hive Helpers for Pi to PiOS
 
 This file is a checklist and a draft proposal. **Nothing has been submitted yet.** This repository is private. Making it public, posting a Brainstorm proposal, and opening a pull request against [pi-apps/PiOS](https://github.com/pi-apps/PiOS) all need Osahon Ikuobase's approval, and several of those steps can only be done while signed in as him.
 
@@ -35,7 +35,7 @@ Information necessary for the PR to be approved:
 - **Title**
   - Allowed forms: “App_Name for Pi”, “App_Name on Pi”, “App_Name”
   - Not allowed: “Pi App_Name” (to avoid confusion with apps developed by the Pi Core Team)
-  - Pi's trademark guidance also says a name may include “Pi” but must **not** use it as a prefix. The GitHub repository is `pihive-pi-helpers` (it starts with “pi”). For the official list / Brainstorm title, prefer a name that does not start with “Pi”, for example **Hive Helpers for Pi**. Confirm the exact title before opening the PR.
+  - Pi's trademark guidance also says a name may include “Pi” but must **not** use it as a prefix. The GitHub repository is `pihive-pi-helpers` (it starts with “pi”). For the official list / Brainstorm title, prefer a name that does not start with “Pi”, for example **Hive Helpers for Pi**. Title confirmed by Osahon on 19 Nov 2026: **Hive Helpers for Pi**.
   - The project must include this language in its code (already present in LICENSE, README and the package entry files): *Pi, Pi Network and the Pi logo are trademarks of the Pi Community Company.*
 - **Description** — short description of what the library aims to achieve
 - **Programming Languages + Framework**
@@ -114,7 +114,7 @@ Every Pi app has to do the same careful work: never trust a uid the browser send
 
 - The copyright holder is Osahon Ikuobase (GitHub: Michael00820).
 - PiHive, the marketplace this was extracted from, remains a separate private project and is not itself licensed under PiOS.
-- The source will be hosted under `pi-apps` if this submission is accepted; until then a private staging repository exists at `Michael00820/pihive-pi-helpers` and will be made public only after Osahon approves.
+- The source will be hosted under `pi-apps` if this submission is accepted; until then the source is public at `Michael00820/pihive-pi-helpers` (made public with Osahon's approval on 19 Nov 2026).
 
 ## What is already done in this repository
 
@@ -122,7 +122,7 @@ Every Pi app has to do the same careful work: never trust a uid the browser send
 - Trademark notice in LICENSE, README and package entry files
 - Helper code, tests, and a typecheck/build
 - Secret scan before the initial commit (see the scan notes kept with the commit work, not in the source tree)
-- Private GitHub repository `Michael00820/pihive-pi-helpers` (not public, not under `pi-apps`)
+- Public GitHub repository `Michael00820/pihive-pi-helpers` (not yet under `pi-apps`)
 
 ## What still needs Osahon's approval and login
 
@@ -130,7 +130,7 @@ Every Pi app has to do the same careful work: never trust a uid the browser send
 |---|---|---|
 | Read the licence and confirm the copyright line | Osahon | Official text is unaltered except the copyright notice |
 | Confirm the public title (recommended: “Hive Helpers for Pi”) | Osahon | Avoids a name that starts with “Pi” |
-| Make `Michael00820/pihive-pi-helpers` **public** | Osahon, on GitHub | Keep it private until you are ready. Scan history again if more commits are added. |
+| Make `Michael00820/pihive-pi-helpers` **public** | Done 19 Nov 2026 | Scan history again if more commits are added. |
 | Create the Brainstorm proposal | Osahon, in the Pi Browser | Paste the draft above. Only he can do this. |
 | Open the pull request on `pi-apps/PiOS` (`list.md`) | Osahon (GitHub user Michael00820) | Include the Brainstorm URL. The user who opens the PR becomes admin of the `pi-apps` repo. |
 | Accept the `pi-apps` invitation and push or copy this code there | Osahon | Confirm LICENSE is still the official PiOS text |

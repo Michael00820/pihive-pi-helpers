@@ -1,7 +1,7 @@
 {
   "name": "pihive-pi-helpers",
   "version": "0.1.0",
-  "description": "Reusable Pi Network helpers: Browser SDK sign-in, server-side /v2/me verification, U2A approve/complete flow, and A2U payouts with a Horizon reader. Licensed under the PiOS License for use inside the official Pi Network only.",
+  "description": "Hive Helpers for Pi: Pi SDK sign-in, U2A payment and A2U payout helpers (PiOS License).",
   "license": "SEE LICENSE IN LICENSE",
   "author": "Osahon Ikuobase",
   "type": "module",
