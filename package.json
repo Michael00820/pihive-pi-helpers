@@ -1,0 +1,62 @@
+{
+  "name": "pihive-pi-helpers",
+  "version": "0.1.0",
+  "description": "Reusable Pi Network helpers: Browser SDK sign-in, server-side /v2/me verification, U2A approve/complete flow, and A2U payouts with a Horizon reader. Licensed under the PiOS License for use inside the official Pi Network only.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Osahon Ikuobase",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "./dist/server/index.js",
+  "types": "./dist/server/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/server/index.d.ts",
+      "import": "./dist/server/index.js"
+    },
+    "./server": {
+      "types": "./dist/server/index.d.ts",
+      "import": "./dist/server/index.js"
+    },
+    "./client": {
+      "types": "./dist/client/index.d.ts",
+      "import": "./dist/client/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael00820/pihive-pi-helpers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Michael00820/pihive-pi-helpers/issues"
+  },
+  "homepage": "https://github.com/Michael00820/pihive-pi-helpers#readme",
+  "keywords": [
+    "pi-network",
+    "pios",
+    "payments",
+    "a2u",
+    "u2a"
+  ],
+  "dependencies": {
+    "@stellar/stellar-sdk": "^17.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vitest": "^4.1.12"
+  }
+}
